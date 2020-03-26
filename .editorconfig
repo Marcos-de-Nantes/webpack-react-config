@@ -1,0 +1,14 @@
+#
+# See: https://editorconfig.org/
+# Go to 'No plugin Necessary' and 'Download a Plugin'
+# If you are using VS Code, please Install 'EditorConfig for VS Code' by EditorConfig
+#
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+

@@ -33,7 +33,7 @@ module.exports = {
 					{ loader: "css-loader" },
 					{ loader: "sass-loader" }
 				],
-				include: [path.resolve(__dirname, "src")],
+				include: [path.resolve(__dirname, "src"), path.resolve(__dirname, "node_modules")],
 				exclude: [path.resolve(__dirname, "public")]
 			},
 			{

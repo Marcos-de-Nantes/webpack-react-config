@@ -1,6 +1,8 @@
 {
-  "name": "webpack-upgraded",
-  "version": "0.1.0",
+  "name": "chatizin-frontend",
+  "version": "0.0.1",
+  "description": "Desenvolvimento do frontend para Chat para conversas em LAN",
+  "keywords": ["chat", "conversas", "LAN", "mensaginhas"],
   "dependencies": {
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.6",
@@ -9,7 +11,9 @@
     "react-dom": "^16.12.0",
     "react-hook-form": "^4.10.1",
     "react-icons": "^3.9.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -21,7 +25,6 @@
     "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-flowtype": "^4.6.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.0",
@@ -43,6 +46,23 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint --fix --quiet --ext .js,.json,.jsx ./"
-  }
+    "lint": "eslint --fix --quiet --ext .js,.jsx ./src/**/*"
+  },
+  "contributors": [
+    {
+      "name": "Giovani Eduardo Quisini",
+      "email": "giovaniequisini@gmail.com",
+      "url": "https://github.com/DarthBayo"
+    },
+    {
+      "name": "Marcos Henrique de Nantes",
+      "email": "giovaniequisini@gmail.com",
+      "url": "https://github.com/Marcos-de-Nantes"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/DarthBayo/chatizin",
+    "directory": "frontend"
+  },
+  "license": "GPL-3.0"
 }
